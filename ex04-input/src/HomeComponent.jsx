@@ -26,7 +26,7 @@ class HomeComponent extends Component{
                 <input type="text" onChange={this.changeText} />
                 <hr />
 
-                {/* 2. input 요소의 글씨가 변경도딜때 마다 바로 아래 p요소에 표시하기 */}
+                {/* 2. input 요소의 글씨가 변경될때 마다 바로 아래 p요소에 표시하기 */}
                 <input type="text" onChange={this.changeText2} />
                 <p>입력된 글씨 : {this.state.text}</p>
                 <hr />
