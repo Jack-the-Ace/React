@@ -1,0 +1,18 @@
+.Container .title{
+    padding: 1rem 1.5rem;
+}
+.Container .info{
+    padding: 1rem 1.5rem;
+}
+
+.Container .movies{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Container{
+    font-size: 20px;
+}

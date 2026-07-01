@@ -1,0 +1,26 @@
+#root{
+  height: 100%;  /* 이 요소의 부모요소 body */
+}
+
+body{
+  height: 100%;
+  /* 웹앱 전체의 기본 폰트 */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+html{
+  height: 100%;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}

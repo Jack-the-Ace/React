@@ -1,0 +1,31 @@
+.page-button-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-button-container .page-button{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0.3rem;
+    font-size: 18px;
+    background-color: white;
+}
+
+.page-button-container .page-button:hover{
+    background-color: orange;
+    cursor: pointer;
+    transform: translateY(-4px);   /* 살짝 위로.. */
+}
+
+/* 속성 중에서 aaa가 있을때 스타일 */
+.page-button-container .page-button[aaa]{
+    background-color: orange;
+    /* 현재 페이지의 버튼은 눌러지면 안되니.. */
+    cursor: revert;  /* 부모 속성값으로 돌아가거나.. 부모가 없으면 최초 상태값 */
+    transform: revert;
+}
